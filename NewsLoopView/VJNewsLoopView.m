@@ -79,6 +79,9 @@
     abstractScrollview=[[UIScrollView alloc]initWithFrame:CGRectMake(_leadSpace, 0,_width , _height)];
     [self addSubview:abstractScrollview];
     abstractScrollview.showsVerticalScrollIndicator = NO;
+    abstractScrollview.showsHorizontalScrollIndicator = NO;
+    abstractScrollview.scrollEnabled = NO;
+    abstractScrollview.pagingEnabled = YES;
     [abstractScrollview setContentSize:contSize];
 
     for (int i=0; i< [_itemArray count]; i++)

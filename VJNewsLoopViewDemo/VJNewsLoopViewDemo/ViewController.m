@@ -22,6 +22,7 @@
 
     CGFloat screenWidth = [[UIScreen mainScreen] bounds].size.width;
     
+    
     VJNewsItem * item1 = [[VJNewsItem alloc] init];
     item1.title = @"老外的钱真好赚 这样的一台手机都能卖9万元";
 
