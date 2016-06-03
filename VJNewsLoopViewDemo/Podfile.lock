@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NewsLoopView:
-    :commit: b7e4424cc6cf2ed4845e96134660ca5b16bfbc4d
+    :commit: dd7fa6cbb5d8b1958dc9ed31b7aa0180dfeaf40d
     :git: https://github.com/Excalibur-CT/CTNewsLoopView.git
 
 SPEC CHECKSUMS:

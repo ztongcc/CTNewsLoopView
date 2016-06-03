@@ -130,8 +130,8 @@
             labelLast.font = self.font;
             labelLast.textColor= self.textColor;
             UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapInLabel:)];
-            [label addGestureRecognizer:tap];
-            label.userInteractionEnabled = YES;
+            [labelLast addGestureRecognizer:tap];
+            labelLast.userInteractionEnabled = YES;
             [abstractScrollview addSubview:labelLast];
         }
     }
@@ -141,7 +141,7 @@
    
 }
 
-- (void)tapInLabel:(UITapGestureRecognizer*)tap
+- (void)tapInLabel:(UITapGestureRecognizer *)tap
 {
     if (self.didSelectItemAtIndexHandler)
     {

@@ -146,7 +146,10 @@
     if (self.didSelectItemAtIndexHandler)
     {
         NSInteger index = tap.view.tag-LABELTAG;
-        self.didSelectItemAtIndexHandler(self,index, [_itemArray[index] copy]);
+        if (index == _itemArray.count) {
+            index = 0;
+        }
+        self.didSelectItemAtIndexHandler(self,index, _itemArray[index]);
     }
 
     NSLog(@"%d",tap.view.tag-LABELTAG);
