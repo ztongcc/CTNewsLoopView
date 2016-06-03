@@ -30,6 +30,18 @@ typedef NS_ENUM(NSInteger, VJNewsLoopViewScrollDirection)
 @end
 
 
+
+@interface VJNewsItem : NSObject <VJNewsItemsProtocol>
+
+@property (nonatomic,   copy)NSString * title;
+@property (nonatomic,   copy)NSString * itemId;
+@property (nonatomic, assign)BOOL       isClick;
+
+@end
+
+
+
+
 @interface VJNewsLoopView : UIView
 /**
  *  文本字体

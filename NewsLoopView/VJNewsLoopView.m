@@ -10,6 +10,9 @@
 
 #define LABELTAG 1000
 
+@implementation VJNewsItem
+
+@end
 
 @interface VJNewsLoopView ()
 {
