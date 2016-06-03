@@ -1,0 +1,18 @@
+{
+  "name": "NewsLoopView",
+  "version": "1.0",
+  "summary": "NewsLoopView is a advitisement loop framework .",
+  "homepage": "https://git.oschina.net/VJTong/VJNewsLoopView",
+  "license": "MIT",
+  "authors": "chengzhitong email:chengzhitong@vjwealth.com",
+  "source": {
+    "git": "https://git.oschina.net/VJTong/VJNewsLoopView.git",
+    "tag": "1.0"
+  },
+  "source_files": "NewsLoopView/*.{h,m}",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "frameworks": "UIKit"
+}

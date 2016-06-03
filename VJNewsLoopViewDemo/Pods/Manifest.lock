@@ -1,0 +1,21 @@
+PODS:
+  - NewsLoopView (1.0)
+
+DEPENDENCIES:
+  - NewsLoopView (from `https://github.com/Excalibur-CT/CTNewsLoopView.git`)
+
+EXTERNAL SOURCES:
+  NewsLoopView:
+    :git: https://github.com/Excalibur-CT/CTNewsLoopView.git
+
+CHECKOUT OPTIONS:
+  NewsLoopView:
+    :commit: b7e4424cc6cf2ed4845e96134660ca5b16bfbc4d
+    :git: https://github.com/Excalibur-CT/CTNewsLoopView.git
+
+SPEC CHECKSUMS:
+  NewsLoopView: 6a4a583b45188d36279bf741eaa9dd1803e02624
+
+PODFILE CHECKSUM: dd152231df0aa686452d8c0beab5f9d24b472d6a
+
+COCOAPODS: 1.0.0

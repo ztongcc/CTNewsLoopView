@@ -1,0 +1,9 @@
+platform:'ios','7.0'
+
+target 'VJNewsLoopViewDemo' do
+
+ pod 'NewsLoopView', :git => 'https://github.com/Excalibur-CT/CTNewsLoopView.git'
+
+
+
+end

@@ -1,0 +1,1 @@
+../../../NewsLoopView/NewsLoopView/VJNewsLoopView.h
