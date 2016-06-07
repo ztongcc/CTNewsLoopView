@@ -103,13 +103,14 @@ typedef NS_ENUM(NSInteger, VJNewsLoopViewScrollDirection)
  *  @param index 数据索引
  */
 - (void)updateAndDeleteIndex:(NSInteger)index;
-
-- (void)reStart;
+/**
+ *  重新开始 (从第一个开始滚动)
+ */
+- (void)reStartLoop;
 /**
  *  开始滚动 在最后调用
  */
 - (void)startLoopAnimation;
-
 /**
  *  关闭时间
  */

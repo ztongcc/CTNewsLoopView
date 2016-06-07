@@ -291,23 +291,24 @@
     [self startLoopAnimation];
 }
 
-- (void)reStart
-{
-    [self startLoopAnimation];
-}
-
 - (void)startLoopAnimation
 {
     [self adjustUISpace];
     [self makeselfUI];
     [self start];
 }
-/**
- *  关闭时间
- */
--(void)stopLoopAnimation
+
+- (void)stopLoopAnimation
 {
     [self stop];
+}
+
+- (void)reStartLoop
+{
+    [self stop];
+    [abstractScrollview setContentOffset:CGPointMake(0, 0)];
+    autoIndex = 0;
+    [self start];
 }
 
 - (void)setIndicatorImage:(UIImage *)indicatorImage

@@ -294,9 +294,12 @@
     [self startLoopAnimation];
 }
 
-- (void)reStart
+- (void)reStartLoop
 {
-    [self startLoopAnimation];
+    [self stop];
+    [abstractScrollview setContentOffset:CGPointMake(0, 0)];
+    autoIndex = 0;
+    [self start];
 }
 
 - (void)startLoopAnimation

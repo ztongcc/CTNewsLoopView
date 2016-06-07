@@ -75,6 +75,11 @@ typedef NS_ENUM(NSInteger, VJNewsLoopViewScrollDirection)
 @property (nonatomic, strong)UIImage * indicatorImage;
 
 /**
+ *   block监听点击方式
+ */
+@property (nonatomic, copy) void (^didSelectItemAtIndexHandler)(VJNewsLoopView * loopView, NSInteger index, id <VJNewsItemsProtocol> itemObj);
+
+/**
  *  初始化
  *
  *  @param frame           frame大小
@@ -88,10 +93,6 @@ typedef NS_ENUM(NSInteger, VJNewsLoopViewScrollDirection)
                         block:(void (^)(VJNewsLoopView * loopView, NSInteger index, id <VJNewsItemsProtocol> itemObj))block;
 
 /**
- *   block监听点击方式
- */
-@property (nonatomic, copy) void (^didSelectItemAtIndexHandler)(VJNewsLoopView * loopView, NSInteger index, id <VJNewsItemsProtocol> itemObj);
-/**
  *  更新数据源
  *
  *  @param items
@@ -103,8 +104,10 @@ typedef NS_ENUM(NSInteger, VJNewsLoopViewScrollDirection)
  *  @param index 数据索引
  */
 - (void)updateAndDeleteIndex:(NSInteger)index;
-
-- (void)reStart;
+/**
+ *  重新开始 (从第一个开始滚动)
+ */
+- (void)reStartLoop;
 /**
  *  开始滚动 在最后调用
  */
