@@ -9,4 +9,4 @@
 #####3.支持自定义滚动动画时间
 #####4.支持最右边添加图片
 
-https://github.com/Excalibur-CT/CTNewsLoopView/blob/master/ScreenShot.png
+![Screenshot](https://github.com/Excalibur-CT/CTNewsLoopView/blob/master/ScreenShot.png)
