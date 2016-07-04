@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A0FBE21D29F58A001D3ABA /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0FBE11D29F58A001D3ABA /* CBAutoScrollLabel.m */; };
 		84F5292A1D013FAD00025550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F529291D013FAD00025550 /* main.m */; };
 		84F5292D1D013FAD00025550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5292C1D013FAD00025550 /* AppDelegate.m */; };
 		84F529301D013FAD00025550 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5292F1D013FAD00025550 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		24E330F01BB3C1C72F485243 /* Pods-VJNewsLoopViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJNewsLoopViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VJNewsLoopViewDemo/Pods-VJNewsLoopViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		84A0FBE01D29F58A001D3ABA /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAutoScrollLabel.h; sourceTree = "<group>"; };
+		84A0FBE11D29F58A001D3ABA /* CBAutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAutoScrollLabel.m; sourceTree = "<group>"; };
 		84F529251D013FAD00025550 /* VJNewsLoopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VJNewsLoopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F529291D013FAD00025550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F5292B1D013FAD00025550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 			children = (
 				84F5292B1D013FAD00025550 /* AppDelegate.h */,
 				84F5292C1D013FAD00025550 /* AppDelegate.m */,
+				84A0FBE01D29F58A001D3ABA /* CBAutoScrollLabel.h */,
+				84A0FBE11D29F58A001D3ABA /* CBAutoScrollLabel.m */,
 				84F5292E1D013FAD00025550 /* ViewController.h */,
 				84F5292F1D013FAD00025550 /* ViewController.m */,
 				84F5294D1D014CD500025550 /* left@2x.png */,
@@ -293,6 +298,7 @@
 				84F529301D013FAD00025550 /* ViewController.m in Sources */,
 				84F5292D1D013FAD00025550 /* AppDelegate.m in Sources */,
 				84F5292A1D013FAD00025550 /* main.m in Sources */,
+				84A0FBE21D29F58A001D3ABA /* CBAutoScrollLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
