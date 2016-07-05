@@ -65,19 +65,19 @@
 
     
     
-    
-    CBAutoScrollLabel *carUserName = [[CBAutoScrollLabel alloc] initWithFrame:CGRectMake(0, 300, screenWidth, 25)];
-    carUserName.backgroundColor = [UIColor orangeColor];
-    carUserName.text = @"车位文件呢巨额借款我考虑么看完了吗啊啊啊啊啊人啊啊啊啊恩额啊啊啊人跟人啊啊啊啊啊看";
-    carUserName.textColor = [UIColor blueColor];
-    carUserName.labelSpacing = 10;
-    carUserName.pauseInterval = 5;
-    carUserName.scrollSpeed = 45;
-    carUserName.textAlignment = NSTextAlignmentCenter;
-    carUserName.fadeLength = 15.f;
-    carUserName.scrollDirection = CBAutoScrollDirectionLeft;
-    [carUserName observeApplicationNotifications];
-    [self.view addSubview:carUserName];
+//    
+//    CBAutoScrollLabel *carUserName = [[CBAutoScrollLabel alloc] initWithFrame:CGRectMake(0, 300, screenWidth, 25)];
+//    carUserName.backgroundColor = [UIColor orangeColor];
+//    carUserName.text = @"车位文件呢巨额借款我考虑么看完了吗啊啊啊啊啊人啊啊啊啊恩额啊啊啊人跟人啊啊啊啊啊看";
+//    carUserName.textColor = [UIColor blueColor];
+//    carUserName.labelSpacing = 10;
+//    carUserName.pauseInterval = 5;
+//    carUserName.scrollSpeed = 45;
+//    carUserName.textAlignment = NSTextAlignmentCenter;
+//    carUserName.fadeLength = 15.f;
+//    carUserName.scrollDirection = CBAutoScrollDirectionLeft;
+//    [carUserName observeApplicationNotifications];
+//    [self.view addSubview:carUserName];
     
 }
 
