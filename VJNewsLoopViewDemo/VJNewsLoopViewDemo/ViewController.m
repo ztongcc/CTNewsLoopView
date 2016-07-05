@@ -63,7 +63,7 @@
     
     [loopView2 startLoopAnimation];
 
-    
+    NSLog(@"veveverve");
     
 //    
 //    CBAutoScrollLabel *carUserName = [[CBAutoScrollLabel alloc] initWithFrame:CGRectMake(0, 300, screenWidth, 25)];
